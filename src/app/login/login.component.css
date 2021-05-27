@@ -1,12 +1,29 @@
 #img-bg {
-    background-image: url(https://image.freepik.com/vetores-gratis/blogar-divertido-criacao-de-conteudo-streaming-online-videoblog-jovem-fazendo-selfie-para-rede-social-compartilhando-feedback-estrategia-de-autopromocao_335657-2386.jpg);
+    background-image: url(https://programadoresbrasil.com.br/wp-content/uploads/2019/10/0_fUJ-vxQtDB0ssLX7-1024x684.jpeg);
 
     min-height: 695px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    filter: grayscale(.75);
 }
 
 .background {
-    background-color: rgba(202, 198, 198, 0.774);
+    background-color: rgba(5, 1, 1, 0.774);
+}
+
+h1 {
+    color: honeydew;
+}
+
+label {
+    color: honeydew;
+}
+
+p {
+    color: honeydew;
+}
+
+hr {
+    background-color: honeydew;
 }

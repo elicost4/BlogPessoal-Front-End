@@ -1,12 +1,21 @@
 #img-bg {
-    background-image: url(https://image.freepik.com/vetores-gratis/conceito-de-trabalho-de-autor-ou-escritor-de-conteudo_74855-7064.jpg);
+    background-image: url(https://miro.medium.com/max/7000/0*3cvAhquhiICIi3jm);
 
     min-height: 695px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    filter: grayscale(.75);
 }
 
 .background {
-    background-color: rgba(202, 198, 198, 0.774);
+    background-color: rgba(5, 1, 1, 0.774);
+}
+
+label {
+    color: honeydew;
+}
+
+h1 {
+    color: honeydew;
 }
