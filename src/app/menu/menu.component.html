@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-danger">
+<nav class="navbar navbar-expand-lg cor-do-menu">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
     aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
     <span class="navbar-toggler-icon"></span>
@@ -7,12 +7,10 @@
   <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
     <ul class="navbar-nav mr-auto d-flex align-items-center">
       <li class="nav-item active">
-        <img
-          src="https://akns-images.eonline.com/eol_images/Entire_Site/2014914/rs_600x600-141014083901-600-Mark-Zuckerberg-ebola.ls.101414.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top"
-          alt="Foto do usuário" width="50px" height="50" class="img-fluid rounded-circle">
+        <img src="{{foto}}" alt="Foto do usuário" width="50px" height="50" class="img-fluid rounded-circle">
       </li>
       <li class="nav-item pl-3">
-        <p class="m-0 font-weight-bold text-white fs-16">Nome do usuário</p>
+        <p class="m-0 font-weight-bold text-white fs-16">Olá, {{nome}}</p>
       </li>
       <a href="">
         <li class="nav-item pl-3">
@@ -22,7 +20,7 @@
     </ul>
     <ul class="navbar-nav ml-auto d-flex align-items-center">
       <li class="nav-item pl-3">
-        <a class="m-0 font-weight-bold text-white fs-16">Sair <i class="fa fa-sign-out" aria-hidden="true"></i></a>
+        <a (click)='sair()' class="m-0 font-weight-bold text-white fs-16">Sair <i class="fa fa-sign-out" aria-hidden="true"></i></a>
       </li>
     </ul>
   </div>

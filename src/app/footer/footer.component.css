@@ -26,3 +26,7 @@ ul.social-network li{
 .fa-linkedin-square:hover {
     color: #0a66c2;
 }
+
+.cor-do-footer {
+    background: rgb(61, 28, 206, 0.774);
+}

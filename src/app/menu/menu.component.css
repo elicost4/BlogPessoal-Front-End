@@ -5,3 +5,7 @@
 a {
     cursor: pointer;
 }
+
+.cor-do-menu {
+    background: rgb(61, 28, 206, 0.774);
+}

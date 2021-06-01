@@ -34,8 +34,8 @@ export class LoginComponent implements OnInit {
       /* console.log(environment.token)
       console.log(environment.nome)
       console.log(environment.foto)
-      console.log(environment.id)
-      PARA CERTIFICAR QUE O ENVIRONMENT ESTÁ GUARDANDO OS DADOS PASSADOS*/
+      console.log(environment.id) */
+      //PARA CERTIFICAR QUE O ENVIRONMENT ESTÁ GUARDANDO OS DADOS PASSADOS
 
       this.router.navigate(['/inicio'])
     }, erro => {

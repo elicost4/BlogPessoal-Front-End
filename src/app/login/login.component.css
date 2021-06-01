@@ -1,6 +1,5 @@
 #img-bg {
     background-image: url(https://programadoresbrasil.com.br/wp-content/uploads/2019/10/0_fUJ-vxQtDB0ssLX7-1024x684.jpeg);
-
     min-height: 695px;
     background-position: center;
     background-repeat: no-repeat;
@@ -9,7 +8,7 @@
 }
 
 .background {
-    background-color: rgba(5, 1, 1, 0.774);
+    background-color: rgba(61, 28, 206, 0.774);
 }
 
 h1 {
@@ -26,4 +25,8 @@ p {
 
 hr {
     background-color: honeydew;
+}
+
+.cor-do-texto {
+    color: cornflowerblue;
 }
